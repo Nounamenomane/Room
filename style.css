@@ -720,13 +720,15 @@ label{
 
     .star {
         height: 100%;
-        width: 100%;
         background-position: center;
     }
 
     .star {
         margin: 10px 10px;
 
+    }
+    .star__title{
+        margin-bottom: 50px;
     }
 
     .stars {
@@ -855,6 +857,9 @@ label{
     .back__text h1 {
         font-size: 20px;
     }
+    .footer{
+        height:1500px
+    }
 
     .footer__title {
         padding-top: 20px;
@@ -869,5 +874,39 @@ label{
         padding-bottom: 70%;
     }
 
+    .footer__first {
+        flex-direction: column;
+    }
+    .footer__follow{
+        flex-direction: column;
+        padding-top: 30px;
+    }
+    .footer__show{
+        margin-left: 100px;
+    }
+    .footer__second{
+        margin-left: 10px;
+    }
+    .registr input{
+        width: 350px;
+    }
+    .registr select{
+        margin-left: 70%;
+    }
+    .footer__second p{
+        margin-top: 50px;
+        text-align: center;
+    }
+    .registr div input{
+        margin-right: 40px;
+        margin-top: 60px;
+    }
 
 }
+@media(max-width:1400px){
+
+}
+@media(max-width:1200px) {}
+@media(max-width:992px) {}
+@media(max-width:768px) {}
+@media(max-width:576px) {}
